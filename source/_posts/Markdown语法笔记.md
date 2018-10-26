@@ -1,7 +1,8 @@
 ---
 title: Markdown语法笔记
-tags: Studying
 date: 2018-10-25 17:07:08
+categories: Study
+tags: markdown
 ---
 
 

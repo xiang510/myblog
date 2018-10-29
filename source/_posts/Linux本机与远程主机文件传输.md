@@ -1,8 +1,11 @@
 ---
 title: Linux本机与远程主机文件传输
-date: 2018-10-25 17:18:38
 categories: Study
-tags: [liunx, Mac]
+tags:
+  - liunx
+  - Mac
+abbrlink: 49778ea8
+date: 2018-10-25 17:18:38
 ---
 
 #### 命令格式

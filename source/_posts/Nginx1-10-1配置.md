@@ -1,8 +1,11 @@
 ---
 title: Nginx1.10.1配置
-date: 2018-10-26 10:14:53
 categories: Study
-tags: [http, nginx]
+tags:
+  - http
+  - nginx
+abbrlink: 990947c
+date: 2018-10-26 10:14:53
 ---
 
 nginx1.10.1版本配置信息详解<!--more-->

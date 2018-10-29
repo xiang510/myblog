@@ -1,8 +1,10 @@
 ---
 title: apt包管理器
-date: 2018-10-26 09:27:58
 categories: Study
-tags: [linux]
+tags:
+  - linux
+abbrlink: d44b0517
+date: 2018-10-26 09:27:58
 ---
 
 ### apt相关文件目录 

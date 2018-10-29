@@ -16,6 +16,8 @@ timezone:
 url: https://xiang510.github.io
 root: /
 # permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
+
 permalink_defaults:
 
 # Directory
@@ -87,7 +89,7 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
-  
+
 abbrlink:
   alg: crc32
   rep: hex

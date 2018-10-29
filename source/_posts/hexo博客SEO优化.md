@@ -50,13 +50,15 @@ Google Search Console: https://www.google.com/webmasters/tools/home?hl=zh-CN
 Hexo默认生成的文章地址路径是【网站名称／年／月／日／文章名称】这种路径，这种路径对搜索引擎是不友好的，所以我们要把他们进行优化。优化方法如下：
 方法1、打开_config.yml配置文件，找到permalink,修改为如下
 `permalink:   /articles/:title.html`
-方法2、安装三方插件`npm install hexo-abbrlink --save`
+方法2、安装三方插件
+`npm install hexo-abbrlink --save`
 在配置_config.yml中添加
 ```
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: hex    # 进制：dec(default) and hex
 ```
+修改permalik,`permalink: posts/:abbrlink/`
 
 ### 对文章中的超链接添加nofollow
 *nofollow 是HTML页面中a标签的属性值,它能告诉搜索引擎"不要追踪此网页上的链接或不要追踪此特定链接"*

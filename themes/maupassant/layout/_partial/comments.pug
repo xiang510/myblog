@@ -131,3 +131,21 @@ if theme.valine.enable == true
         guest_info:guest_info,
         pageSize:'#{theme.valine.pageSize}'
       })
+if theme.shawncomment
+  #my_comment
+    link(rel='stylesheet', href=url_for(theme.css) + '/comment.css' + '?v=' + theme.version)
+    script(src=url_for(theme.js) + '/comment.js' + '?v=' + theme.version)
+
+    .comment_wrap
+      .comment_userinfo(class='clear')
+        span.label(class='test') 用户名
+        input.input_style(placeholder='请输入用户名' class='test')
+        span.label(class='test') 邮箱地址
+        input.input_style(placeholder='请输入用户名' class='test')
+        span.label(class='test') 网站地址
+        input.input_style(placeholder='请输入用户名' class='test')
+      .comment_input
+        input(type='textarea' placeholder='请输入评论内容')
+      .comment_submit
+        span.submit_btn() 回复
+    
